@@ -45,8 +45,6 @@ const Datatable = () => {
 		}
 	}, [])
 
-	console.log(data)
-
 	const handleDelete = async (id) => {
 		try {
 			await deleteDoc(doc(db, 'users', id))

@@ -72,8 +72,8 @@ function App() {
 								}
 							/>
 						</Route>
-						<Route path='*' component={PageNotFound} />
 					</Route>
+					<Route path='*' component={PageNotFound} />
 				</Routes>
 			</BrowserRouter>
 		</div>
